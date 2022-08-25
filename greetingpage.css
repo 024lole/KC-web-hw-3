@@ -1,0 +1,361 @@
+.navbar {
+    height: 65px;
+    width: 100%;
+    background-color: #cdb4db;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    width: 1000px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: -170px;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+    margin: 5px;
+    padding: 3px;
+    margin-left: 7px;
+
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-left: 7px;
+    margin: 5px;
+    }
+
+body {
+
+height: 800px;
+background-color: #eff8e2;
+font-family: "Kanit";
+margin: 0;
+}
+
+.greeting {
+text-align: center;
+}
+
+.con {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100%;
+}
+
+.right a {
+margin: 3px;
+padding: 5px;
+}
+ .con h2 {
+    color: #fffcf7;
+ }
+
+.left img {
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    margin: 8px;
+
+
+}
+
+.left h3 {
+    color: #fff;
+    font-family: "Kanit";
+    font-size: 27px;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-9%);
+    top: 50%;
+    width: 100%;
+    line-height: 1em;
+    margin: 0;
+    text-shadow: 0 1px 0 #dba1a1, 0 2px 0 #d89999, 0 3px 0 #d59292, 0 4px 0 #d28a8a,
+    0 5px 0 #cf8383, 0 6px 0 #cd7c7c, 0 7px 0 #ca7474, 0 8px 0 #c76d6d,
+    0 0 5px rgba(230, 139, 139, 0.05), 0 -1px 3px rgba(230, 139, 139, 0.2),
+    0 9px 9px rgba(230, 139, 139, 0.3), 0 12px 12px rgba(230, 139, 139, 0.3),
+    0 15px 15px rgba(230, 139, 139, 0.3);
+}
+
+
+h2 {
+    color: #fff;
+    font-family: "Kanit";
+    font-size: 30px;
+    line-height: 1em;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-300%);
+    text-shadow: 0 1px 0 #dba1a1, 0 2px 0 #d89999, 0 3px 0 #d59292, 0 4px 0 #d28a8a,
+     0 5px 0 #cf8383, 0 6px 0 #cd7c7c, 0 7px 0 #ca7474, 0 8px 0 #c76d6d,
+     0 0 5px rgba(230, 139, 139, 0.05), 0 -1px 3px rgba(230, 139, 139, 0.2),
+     0 9px 9px rgba(230, 139, 139, 0.3), 0 12px 12px rgba(230, 139, 139, 0.3),
+     0 15px 15px rgba(230, 139, 139, 0.3);
+}
+
+a {
+    text-decoration: none;
+    font-family: "Kanit";
+    font-size: 20px;
+    padding: 7px;
+    color:#d59292;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-9%);
+    top: 50%;
+    width: 100%;
+    line-height: 1em;
+    margin: 0;
+}
+    
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #f6aca2;
+  --color-secondary: #f49b90;
+  --color-tertiary: #f28b7d;
+  --color-quaternary: #f07a6a;
+  --color-quinary: #ee6352;
+  /*
+  --color-primary: #5192ED;
+  --color-secondary: #69A1F0;
+  --color-tertiary: #7EAEF2;
+  --color-quaternary: #90BAF5;
+  --color-quinary: #A2C4F5;
+  */
+}
+
+body {
+  min-height: 100vh;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #eff8e2;
+}
+
+
+
+.content {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.text_shadows {
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(1.3rem + 3.5vw);
+  text-align: center;
+  margin: -300px;
+  color: var(--color-primary);
+  -webkit-animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+          animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@-webkit-keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  20% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+  }
+  30% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+  }
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  20% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+  }
+  30% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+  }
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+@-webkit-keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+  }
+  60% {
+    transform: translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+  }
+  60% {
+    transform: translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.footer {
+ 
+  height: 300px;
+  width: 100%;
+  background-color: #cdb4db;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+   
+   
+}
+
+.aboutus {
+
+  color: #fff;
+  font-family: "Kanit";
+  font-size: 27px;
+  padding: 7px;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(30%);
+  top: 50%;
+  width: 100%;
+  line-height: 1em;
+  margin: 0;
+  text-shadow: 0 1px 0 #dba1a1, 0 2px 0 #d89999, 0 3px 0 #d59292, 0 4px 0 #d28a8a,
+  0 5px 0 #cf8383, 0 6px 0 #cd7c7c, 0 7px 0 #ca7474, 0 8px 0 #c76d6d,
+  0 0 5px rgba(230, 139, 139, 0.05), 0 -1px 3px rgba(230, 139, 139, 0.2),
+  0 9px 9px rgba(230, 139, 139, 0.3), 0 12px 12px rgba(230, 139, 139, 0.3),
+  0 15px 15px rgba(230, 139, 139, 0.3);
+}
+ p {
+  font-size: 23px;
+ font-weight: 500;
+ margin-left: 10px;
+ color: #cd7c7c;
+ }
+
+ .contact {
+
+  color: #fff;
+  font-family: "Kanit";
+  font-size: 27px;
+  padding: 7px;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(30%);
+  top: 50%;
+  width: 100%;
+  line-height: 1em;
+  margin: 0;
+  text-shadow: 0 1px 0 #dba1a1, 0 2px 0 #d89999, 0 3px 0 #d59292, 0 4px 0 #d28a8a,
+  0 5px 0 #cf8383, 0 6px 0 #cd7c7c, 0 7px 0 #ca7474, 0 8px 0 #c76d6d,
+  0 0 5px rgba(230, 139, 139, 0.05), 0 -1px 3px rgba(230, 139, 139, 0.2),
+  0 9px 9px rgba(230, 139, 139, 0.3), 0 12px 12px rgba(230, 139, 139, 0.3),
+  0 15px 15px rgba(230, 139, 139, 0.3);
+}
+
+.fa-instagram {
+
+  color: white;
+}
+.fa-twitter {
+ 
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
